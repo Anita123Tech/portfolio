@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anita Arshad - Web Developer Portfolio</title>
+    <meta name="description" content="Anita Arshad - Computer Science Graduate & Web Developer. Specializing in HTML, CSS, JavaScript, Figma, React, and Responsive Web Design.">
+    <meta name="keywords" content="Anita Arshad, Web Developer, Frontend Developer, HTML, CSS, JavaScript, Figma, React, UI/UX, Portfolio, Pakistan">
+    <meta name="author" content="Anita Arshad">
+    <meta property="og:title" content="Anita Arshad - Web Developer Portfolio">
+    <meta property="og:description" content="Computer Science Graduate & Web Developer specializing in responsive web design and modern technologies.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="mypic.jpeg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="updated logo.png">
+</head>
+<body>
+
+<!-- Page Loader -->
+<div class="page-loader" id="pageLoader">
+    <div class="loader-content">
+        <div class="loader-ring"></div>
+        <div class="loader-text">Anita Arshad</div>
+    </div>
+</div>
+
+<!-- Scroll Progress Bar -->
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- Particles Background -->
+<canvas id="particles-canvas"></canvas>
+
+<!-- Custom Cursor Glow -->
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<!-- Navbar -->
+<header>
+    <a href="#home" class="logo">
+        <img src="updated logo.png" alt="Anita Arshad Logo">
+    </a>
+
+    <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#resume">Resume</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#documents">Documents</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="navbar-toggle">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+</header>
+
+<!-- Home Section -->
+<section class="home" id="home">
+    <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Anita Arshad</h1>
+        <div class="text-animate">
+            <h3>And I'm a Web Developer</h3>
+        </div>
+        <p>I am a Computer Science graduate with a strong interest in Web Development and Software Development. I enjoy building responsive websites, interactive interfaces, and user-friendly digital solutions using modern web technologies.</p>
+        
+        <div class="social-media">
+            <a href="https://github.com/Anita123Tech" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/anitaarshad" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://wa.me/923289550730" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="mailto:anitaarshad457@gmail.com" target="_blank" title="Email"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+
+        <a href="#about" class="btn">More About Me</a>
+    </div>
+
+    <div class="coding-banner">
+        <div class="terminal-bar">
+            <div class="terminal-dots">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+            </div>
+            <span class="terminal-title">anita@portfolio:~</span>
+        </div>
+        <div class="terminal-body">
+            <div class="code-line"><span class="code-keyword">const</span> <span class="code-var">developer</span> = {</div>
+            <div class="code-line indent"><span class="code-prop">name</span>: <span class="code-string">"Anita Arshad"</span>,</div>
+            <div class="code-line indent"><span class="code-prop">role</span>: <span class="code-string">"Web Developer"</span>,</div>
+            <div class="code-line indent"><span class="code-prop">skills</span>: [</div>
+            <div class="code-line indent2"><span class="code-string">"React"</span>, <span class="code-string">"JavaScript"</span>,</div>
+            <div class="code-line indent2"><span class="code-string">"Figma"</span>, <span class="code-string">"UI/UX"</span></div>
+            <div class="code-line indent">],</div>
+            <div class="code-line indent"><span class="code-prop">passion</span>: <span class="code-string">"Building the Web"</span></div>
+            <div class="code-line">};</div>
+            <div class="code-line cursor-line"><span class="code-keyword">const</span> <span class="code-var">hire</span> = <span class="code-keyword">await</span> <span class="code-func">contact</span>(<span class="code-string">"hire me"</span>);<span class="cursor">|</span></div>
+        </div>
+        <div class="glowing-border"></div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section class="about-section" id="about">
+    <div class="about-container">
+        <div class="about-img">
+            <img src="aboutimage.png" alt="About Image">
+        </div>
+        <div class="about-content">
+            <h1>About <span>Me</span></h1>
+            <p>I specialize in creating clean and responsive websites using HTML, CSS, and JavaScript. I also have experience in developing web applications with PHP and MySQL, along with Android applications using Android Studio and Kotlin.</p>
+            <div class="about-info">
+                <div class="about-box">Experience: 1+ Years</div>
+                <div class="about-box">Projects: 20+</div>
+                <div class="about-box">Skills: HTML, CSS, JS</div>
+                <div class="about-box">Freelance: Available</div>
+            </div>
+            
+            <div class="about-btn">
+                <a href="Anita Arshad(cv)  (1).pdf" class="btn download-cv" target="_blank">
+                    <i class='bx bx-file'></i> <span>Open CV</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section class="services-section" id="services">
+    <div class="container">
+        <h1>Services I Offer</h1>
+        <p>Professional solutions for your digital needs.</p>
+        <div class="service-grid">
+            <div class="service-card">
+                <i class='bx bx-code-alt'></i>
+                <h3>Front-End Development</h3>
+                <p>Creating clean and responsive website interfaces.</p>
+            </div>
+            <div class="service-card">
+                <i class='bx bx-layout'></i>
+                <h3>Web Design & Layout</h3>
+                <p>Designing structured and mobile-friendly web layouts.</p>
+            </div>
+            <div class="service-card">
+                <i class='bx bx-mobile-alt'></i>
+                <h3>Responsive Design</h3>
+                <p>Perfect layouts for all devices.</p>
+            </div>
+            <div class="service-card">
+                <i class='bx bx-cog'></i>
+                <h3>Maintenance</h3>
+                <p>Website updates & security.</p>
+            </div>
+            <div class="service-card">
+                <i class='bx bx-laptop'></i>
+                <h3>Web Application Development</h3>
+                <p>Building simple and functional web-based systems.</p>
+            </div>
+            <div class="service-card">
+                <i class='bx bx-layer'></i>
+                <h3>Website Management</h3>
+                <p>Managing and organizing website content professionally.</p>
+            </div>
+            <div class="service-card">
+                <i class='bx bx-data'></i>
+                <h3>Database Handling</h3>
+                <p>Managing structured data for applications.</p>
+            </div>
+            <div class="service-card">
+                <i class='bx bx-wrench'></i>
+                <h3>Development Tools</h3>
+                <p>Using useful tools for smooth workflow.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Resume Section -->
+<section class="resume-section" id="resume">
+    <div class="resume-container">
+        
+        <div class="resume-left">
+            <div class="resume-profile">
+                <img src="mypic.jpeg" alt="Anita Arshad" class="resume-avatar">
+                <h1 class="resume-title"><span>Why Hire</span> <span class="gradient-text">Me?</span></h1>
+            </div>
+            <p class="resume-desc" id="typing-text"></p>
+            
+            <div class="tab-menu">
+                <button class="tab-btn active" data-tab="experience">
+                    <i class='bx bx-briefcase'></i>
+                    <span>Experience</span>
+                </button>
+                <button class="tab-btn" data-tab="education">
+                    <i class='bx bx-certification'></i>
+                    <span>Education</span>
+                </button>
+                <button class="tab-btn" data-tab="skills">
+                    <i class='bx bx-code-alt'></i>
+                    <span>Skills</span>
+                </button>
+            </div>
+
+            <div class="resume-stats">
+                <div class="stat-item">
+                    <span class="stat-number">1+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">20+</span>
+                    <span class="stat-label">Projects Done</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="resume-right">
+            
+            <!-- Experience Section -->
+            <section id="experience" class="content-section active-section">
+                <h3 class="section-heading">My Experience</h3>
+                <div class="experience-list">
+                    <div class="experience-item">
+                        <div class="exp-icon">
+                            <i class='bx bx-code-alt'></i>
+                        </div>
+                        <div class="exp-content">
+                            <h4>Frontend Developer</h4>
+                            <p class="exp-desc">Creating responsive and modern websites using HTML, CSS, and JavaScript with clean, maintainable code.</p>
+                            <div class="exp-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience-item">
+                        <div class="exp-icon">
+                            <i class='bx bx-support'></i>
+                        </div>
+                        <div class="exp-content">
+                            <h4>Website Assistance</h4>
+                            <p class="exp-desc">Assisted in handling website-related tasks, content updates, and digital support activities.</p>
+                            <div class="exp-tags">
+                                <span>WordPress</span>
+                                <span>Content</span>
+                                <span>Support</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience-item">
+                        <div class="exp-icon">
+                            <i class='bx bx-laptop'></i>
+                        </div>
+                        <div class="exp-content">
+                            <h4>Remote Work</h4>
+                            <p class="exp-desc">Handled remote tasks efficiently while maintaining quality and timely completion.</p>
+                            <div class="exp-tags">
+                                <span>Remote</span>
+                                <span>Freelance</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience-item">
+                        <div class="exp-icon">
+                            <i class='bx bx-palette'></i>
+                        </div>
+                        <div class="exp-content">
+                            <h4>Graphic Designing</h4>
+                            <p class="exp-desc">Professional brochure editing, image manipulation, and visual content creation.</p>
+                            <div class="exp-tags">
+                                <span>Canva</span>
+                                <span>Design</span>
+                                <span>Branding</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Education Section -->
+            <section id="education" class="content-section">
+                <h3 class="section-heading">My Education</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2023 - 2025</span>
+                            <h4>Associate Degree in Computer Science</h4>
+                            <p class="timeline Uni">University of Central Punjab</p>
+                            <p class="timeline-location">Lahore, Pakistan</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2021 - 2023</span>
+                            <h4>Intermediate (I.C.S)</h4>
+                            <p class="timeline Uni">Government Associate College for Women</p>
+                            <p class="timeline-location">Kot Radha Kishan, Pakistan</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section id="skills" class="content-section">
+                <h3 class="section-heading">Technical Skills</h3>
+                <div class="skills-bars">
+                    <div class="skill-bar-item">
+                        <div class="skill-bar-top">
+                            <div class="skill-bar-left">
+                                <i class='bx bxl-html5'></i>
+                                <span class="skill-name">HTML5 / CSS3</span>
+                            </div>
+                            <span class="skill-percent">95%</span>
+                        </div>
+                        <div class="skill-track">
+                            <div class="skill-fill" data-width="95"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar-item">
+                        <div class="skill-bar-top">
+                            <div class="skill-bar-left">
+                                <i class='bx bxl-javascript'></i>
+                                <span class="skill-name">JavaScript</span>
+                            </div>
+                            <span class="skill-percent">70%</span>
+                        </div>
+                        <div class="skill-track">
+                            <div class="skill-fill" data-width="70"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar-item">
+                        <div class="skill-bar-top">
+                            <div class="skill-bar-left">
+                                <i class='bx bxl-figma'></i>
+                                <span class="skill-name">Figma / UI Design</span>
+                            </div>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <div class="skill-track">
+                            <div class="skill-fill" data-width="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar-item">
+                        <div class="skill-bar-top">
+                            <div class="skill-bar-left">
+                                <i class='bx bx-palette'></i>
+                                <span class="skill-name">Canva / Graphic Design</span>
+                            </div>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <div class="skill-track">
+                            <div class="skill-fill" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar-item">
+                        <div class="skill-bar-top">
+                            <div class="skill-bar-left">
+                                <i class='bx bxl-react'></i>
+                                <span class="skill-name">React Basics</span>
+                            </div>
+                            <span class="skill-percent">60%</span>
+                        </div>
+                        <div class="skill-track">
+                            <div class="skill-fill" data-width="60"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar-item">
+                        <div class="skill-bar-top">
+                            <div class="skill-bar-left">
+                                <i class='bx bx-git'></i>
+                                <i class='bx bxl-github'></i>
+                                <span class="skill-name">Git / GitHub</span>
+                            </div>
+                            <span class="skill-percent">75%</span>
+                        </div>
+                        <div class="skill-track">
+                            <div class="skill-fill" data-width="75"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </div>
+</section>
+
+<!-- Achievements Section -->
+<section class="achievements-section" id="achievements">
+    <div class="container">
+        <h2 class="section-heading">Achievements & Certifications</h2>
+        
+        <div class="achievements-grid">
+            <div class="achievement-card featured-card">
+                <div class="achievement-icon">
+                    <i class='bx bx-trophy'></i>
+                </div>
+                <div class="achievement-info">
+                    <h3>DECODE Certificate</h3>
+                    <p>Completed the DECODE program with proficiency in web development.</p>
+                    <span class="achievement-date">2025</span>
+                </div>
+            </div>
+            <div class="achievement-card">
+                <div class="achievement-icon">
+                    <i class='bx bx-code-alt'></i>
+                </div>
+                <div class="achievement-info">
+                    <h3>JavaScript Proficiency</h3>
+                    <p>Demonstrated strong skills in modern JavaScript and ES6+.</p>
+                    <span class="achievement-date">2024</span>
+                </div>
+            </div>
+            <div class="achievement-card">
+                <div class="achievement-icon">
+                    <i class='bx bx-bulb'></i>
+                </div>
+                <div class="achievement-info">
+                    <h3>UI/UX Design Skills</h3>
+                    <p>Created user-friendly interfaces with modern design principles.</p>
+                    <span class="achievement-date">2024</span>
+                </div>
+            </div>
+            <div class="achievement-card">
+                <div class="achievement-icon">
+                    <i class='bx bx-medal'></i>
+                </div>
+                <div class="achievement-info">
+                    <h3>20+ Projects Completed</h3>
+                    <p>Successfully delivered over 20 web projects for various clients.</p>
+                    <span class="achievement-date">2025</span>
+                </div>
+            </div>
+            <div class="achievement-card">
+                <div class="achievement-icon">
+                    <i class='bx bx-star'></i>
+                </div>
+                <div class="achievement-info">
+                    <h3>Freelance Top Rated</h3>
+                    <p>Maintained excellent client satisfaction and project delivery.</p>
+                    <span class="achievement-date">2025</span>
+                </div>
+            </div>
+            <div class="achievement-card">
+                <div class="achievement-icon">
+                    <i class='bx bx-book-reader'></i>
+                </div>
+                <div class="achievement-info">
+                    <h3>Continuous Learner</h3>
+                    <p>Always updating skills with latest web technologies and trends.</p>
+                    <span class="achievement-date">2026</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Documents Section (Certificate & LOR) -->
+<section class="documents-section" id="documents">
+    <div class="container">
+        <h2 class="section-heading">Documents & Recommendations</h2>
+        <p class="section-subtitle">Verified certificates and letters of recommendation</p>
+        
+        <div class="documents-grid">
+            <!-- Certificate Card -->
+            <div class="document-card">
+                <div class="document-preview">
+                    <img src="certificate screenshot.png" alt="DECODE Certificate Screenshot" class="doc-screenshot">
+                    <div class="doc-badge">Certificate</div>
+                </div>
+                <div class="document-info">
+                    <h3>DECODE Certificate</h3>
+                    <p>Certificate of Completion from the DECODE program, verifying skills in web development and modern technologies.</p>
+                    <div class="doc-meta">
+                        <span><i class='bx bx-calendar'></i> 2025</span>
+                        <span><i class='bx bx-check-circle'></i> Verified</span>
+                    </div>
+                    <a href="DECODE certificate_rotated.pdf" target="_blank" class="doc-view-btn">
+                        <i class='bx bx-file-pdf'></i> View Certificate
+                    </a>
+                </div>
+            </div>
+
+            <!-- LOR Card -->
+            <div class="document-card">
+                <div class="document-preview">
+                    <img src="LOR.jpg" alt="Letter of Recommendation Screenshot" class="doc-screenshot">
+                    <div class="doc-badge lor-badge">Letter of Recommendation</div>
+                </div>
+                <div class="document-info">
+                    <h3>Letter of Recommendation</h3>
+                    <p>Official letter of recommendation recognizing professional skills, work ethic, and contributions in web development projects.</p>
+                    <div class="doc-meta">
+                        <span><i class='bx bx-user'></i> Professional Reference</span>
+                        <span><i class='bx bx-check-circle'></i> Verified</span>
+                    </div>
+                    <a href="Letter_of_Recommendation.pdf" target="_blank" class="doc-view-btn lor-btn">
+                        <i class='bx bx-file-pdf'></i> View LOR
+                    </a>
+                </div>
+            </div>
+
+            <!-- CV Card -->
+            <div class="document-card">
+                <div class="document-preview">
+                    <img src="cv ss.png" alt="CV Screenshot" class="doc-screenshot">
+                    <div class="doc-badge cv-badge">Resume / CV</div>
+                </div>
+                <div class="document-info">
+                    <h3>Resume - Anita Arshad</h3>
+                    <p>Complete resume with detailed education, experience, skills, and project history for professional opportunities.</p>
+                    <div class="doc-meta">
+                        <span><i class='bx bx-refresh'></i> Updated 2026</span>
+                        <span><i class='bx bx-check-circle'></i> Latest Version</span>
+                    </div>
+                    <a href="Anita Arshad(cv)  (1).pdf" target="_blank" class="doc-view-btn cv-btn">
+                        <i class='bx bx-file-pdf'></i> View CV
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Testimonial / LOR Quote -->
+        <div class="testimonial-card">
+            <div class="testimonial-quote">
+                <i class='bx bx-quote-alt-left quote-icon'></i>
+                <p>Anita demonstrated exceptional skills in web development and showed great dedication to delivering high-quality work. Her attention to detail, ability to learn quickly, and professional approach make her a valuable asset to any team.</p>
+                <i class='bx bx-quote-alt-right quote-icon-end'></i>
+            </div>
+            <div class="testimonial-author">
+                <div class="author-line"></div>
+                <span class="author-title">Letter of Recommendation</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Skill Tree Section -->
+<section class="skill-tree-section" id="skilltree">
+    <div class="container">
+        <h2 class="section-heading">My <span class="gradient-text">Skills</span></h2>
+        <div class="skill-tree-wrapper">
+            <div class="skill-orb-container">
+                <div class="skill-orb">
+                    <div class="orb-ring ring-1"></div>
+                    <div class="orb-ring ring-2"></div>
+                    <div class="orb-ring ring-3"></div>
+                    <div class="orb-core">
+                        <i class='bx bx-code-alt'></i>
+                        <span>Web Dev</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-cards-grid">
+                <div class="skill-card" data-skill="html-css">
+                    <div class="skill-card-inner">
+                        <div class="skill-card-front">
+                            <div class="skill-icon-wrap">
+                                <i class='bx bxl-html5'></i>
+                                <i class='bx bxl-css3-alt'></i>
+                            </div>
+                            <h3>HTML5 / CSS3</h3>
+                            <div class="skill-bar"><div class="skill-bar-fill" style="--fill: 95%"></div></div>
+                        </div>
+                        <div class="skill-card-back">
+                            <span class="back-title">Core Skills</span>
+                            <div class="back-tags">
+                                <span>Semantic HTML</span>
+                                <span>Flexbox</span>
+                                <span>Grid</span>
+                                <span>Animations</span>
+                                <span>Responsive</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="js">
+                    <div class="skill-card-inner">
+                        <div class="skill-card-front">
+                            <div class="skill-icon-wrap"><i class='bx bxl-javascript'></i></div>
+                            <h3>JavaScript</h3>
+                            <div class="skill-bar"><div class="skill-bar-fill" style="--fill: 85%"></div></div>
+                        </div>
+                        <div class="skill-card-back">
+                            <span class="back-title">Core Skills</span>
+                            <div class="back-tags">
+                                <span>ES6+</span>
+                                <span>DOM</span>
+                                <span>Fetch API</span>
+                                <span>Async/Await</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="react">
+                    <div class="skill-card-inner">
+                        <div class="skill-card-front">
+                            <div class="skill-icon-wrap"><i class='bx bxl-react'></i></div>
+                            <h3>React</h3>
+                            <div class="skill-bar"><div class="skill-bar-fill" style="--fill: 80%"></div></div>
+                        </div>
+                        <div class="skill-card-back">
+                            <span class="back-title">Core Skills</span>
+                            <div class="back-tags">
+                                <span>Components</span>
+                                <span>Hooks</span>
+                                <span>State</span>
+                                <span>Props</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="figma">
+                    <div class="skill-card-inner">
+                        <div class="skill-card-front">
+                            <div class="skill-icon-wrap"><i class='bx bxl-figma'></i></div>
+                            <h3>Figma</h3>
+                            <div class="skill-bar"><div class="skill-bar-fill" style="--fill: 82%"></div></div>
+                        </div>
+                        <div class="skill-card-back">
+                            <span class="back-title">Core Skills</span>
+                            <div class="back-tags">
+                                <span>Prototyping</span>
+                                <span>Design Systems</span>
+                                <span>Auto Layout</span>
+                                <span>Components</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="github">
+                    <div class="skill-card-inner">
+                        <div class="skill-card-front">
+                            <div class="skill-icon-wrap"><i class='bx bxl-github'></i></div>
+                            <h3>GitHub</h3>
+                            <div class="skill-bar"><div class="skill-bar-fill" style="--fill: 75%"></div></div>
+                        </div>
+                        <div class="skill-card-back">
+                            <span class="back-title">Core Skills</span>
+                            <div class="back-tags">
+                                <span>Version Control</span>
+                                <span>Branching</span>
+                                <span>Pull Requests</span>
+                                <span>Collaboration</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="design">
+                    <div class="skill-card-inner">
+                        <div class="skill-card-front">
+                            <div class="skill-icon-wrap"><i class='bx bx-palette'></i></div>
+                            <h3>UI/UX Design</h3>
+                            <div class="skill-bar"><div class="skill-bar-fill" style="--fill: 78%"></div></div>
+                        </div>
+                        <div class="skill-card-back">
+                            <span class="back-title">Core Skills</span>
+                            <div class="back-tags">
+                                <span>Canva</span>
+                                <span>Wireframing</span>
+                                <span>Color Theory</span>
+                                <span>User Flow</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section class="projects-section" id="projects">
+    <div class="container">
+        <h2 class="section-heading">Latest <span class="gradient-text">Projects</span></h2>
+        
+        <div class="projects-grid">
+            
+            <!-- Project 1 -->
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="project 1.png" alt="E-Commerce Platform">
+                    <div class="project-overlay">
+                        <a href="https://ecommerce-collab.vercel.app/" target="_blank" class="overlay-btn">
+                            <i class='bx bx-link-external'></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <span class="project-num">01</span>
+                    <h3>E-Commerce Platform</h3>
+                    <p>A full-featured e-commerce platform with product listings, shopping cart, and secure checkout.</p>
+                    <div class="tech-stack">HTML, CSS, JavaScript</div>
+                    <div class="project-links">
+                        <a href="https://ecommerce-collab.vercel.app/" target="_blank" class="view-project-btn">
+                            <i class='bx bx-link-external'></i> <span>Live Demo</span>
+                        </a>
+                        <a href="https://github.com/Anita123Tech" target="_blank" title="GitHub">
+                            <i class='bx bxl-github'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="project 2.jpg" alt="DevSphere Agency">
+                    <div class="project-overlay">
+                        <a href="https://devsphere-agency-sigma.vercel.app/" target="_blank" class="overlay-btn">
+                            <i class='bx bx-link-external'></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <span class="project-num">02</span>
+                    <h3>DevSphere Agency</h3>
+                    <p>A modern agency website with smooth animations and responsive design.</p>
+                    <div class="tech-stack">HTML, CSS, JavaScript</div>
+                    <div class="project-links">
+                        <a href="https://devsphere-agency-sigma.vercel.app/" target="_blank" class="view-project-btn">
+                            <i class='bx bx-link-external'></i> <span>Live Demo</span>
+                        </a>
+                        <a href="https://github.com/Anita123Tech" target="_blank" title="GitHub">
+                            <i class='bx bxl-github'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="project 3.png" alt="PDF Converter">
+                    <div class="project-overlay">
+                        <a href="https://pdfconverter-roan.vercel.app/" target="_blank" class="overlay-btn">
+                            <i class='bx bx-link-external'></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <span class="project-num">03</span>
+                    <h3>PDF Converter</h3>
+                    <p>A document utility website for easy PDF-related tasks.</p>
+                    <div class="tech-stack">HTML, CSS, JavaScript</div>
+                    <div class="project-links">
+                        <a href="https://pdfconverter-roan.vercel.app/" target="_blank" class="view-project-btn">
+                            <i class='bx bx-link-external'></i> <span>Live Demo</span>
+                        </a>
+                        <a href="https://github.com/Anita123Tech" target="_blank" title="GitHub">
+                            <i class='bx bxl-github'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="project 4.jpg" alt="Stonehaven Builders">
+                    <div class="project-overlay">
+                        <a href="https://stonehaven-builders.vercel.app/" target="_blank" class="overlay-btn">
+                            <i class='bx bx-link-external'></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <span class="project-num">04</span>
+                    <h3>Stonehaven Builders</h3>
+                    <p>A professional construction company website with project galleries.</p>
+                    <div class="tech-stack">HTML, CSS, JavaScript</div>
+                    <div class="project-links">
+                        <a href="https://stonehaven-builders.vercel.app/" target="_blank" class="view-project-btn">
+                            <i class='bx bx-link-external'></i> <span>Live Demo</span>
+                        </a>
+                        <a href="https://github.com/Anita123Tech" target="_blank" title="GitHub">
+                            <i class='bx bxl-github'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="project 5.jpg" alt="BiteCraft">
+                    <div class="project-overlay">
+                        <a href="https://bitecraft-eosin.vercel.app/" target="_blank" class="overlay-btn">
+                            <i class='bx bx-link-external'></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <span class="project-num">05</span>
+                    <h3>BiteCraft</h3>
+                    <p>A responsive recipe sharing platform with search and filter features.</p>
+                    <div class="tech-stack">HTML, CSS, JavaScript</div>
+                    <div class="project-links">
+                        <a href="https://bitecraft-eosin.vercel.app/" target="_blank" class="view-project-btn">
+                            <i class='bx bx-link-external'></i> <span>Live Demo</span>
+                        </a>
+                        <a href="https://github.com/Anita123Tech" target="_blank" title="GitHub">
+                            <i class='bx bxl-github'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 6 -->
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="project 6.jpg" alt="Event Discovery Platform">
+                    <div class="project-overlay">
+                        <a href="https://event-discovery-platform-six.vercel.app/" target="_blank" class="overlay-btn">
+                            <i class='bx bx-link-external'></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <span class="project-num">06</span>
+                    <h3>Event Discovery Platform</h3>
+                    <p>An event discovery platform with filters, details, and RSVP functionality.</p>
+                    <div class="tech-stack">HTML, CSS, JavaScript</div>
+                    <div class="project-links">
+                        <a href="https://event-discovery-platform-six.vercel.app/" target="_blank" class="view-project-btn">
+                            <i class='bx bx-link-external'></i> <span>Live Demo</span>
+                        </a>
+                        <a href="https://github.com/Anita123Tech" target="_blank" title="GitHub">
+                            <i class='bx bxl-github'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- GitHub Stats Widget -->
+        <div class="github-stats-widget">
+            <div class="github-widget-header">
+                <div class="github-widget-icon">
+                    <i class='bx bxl-github'></i>
+                </div>
+                <div>
+                    <h3>GitHub Activity</h3>
+                    <p class="github-widget-subtitle">Open source contributions & code</p>
+                </div>
+            </div>
+            <div class="github-stats-grid">
+                <div class="github-stat-item">
+                    <i class='bx bx-folder-open'></i>
+                    <span class="github-stat-number" data-target="25">0</span>
+                    <span class="github-stat-label">Repositories</span>
+                </div>
+                <div class="github-stat-item">
+                    <i class='bx bx-code-alt'></i>
+                    <span class="github-stat-number" data-target="500">0</span>
+                    <span class="github-stat-label">Commits</span>
+                </div>
+                <div class="github-stat-item">
+                    <i class='bx bx-star'></i>
+                    <span class="github-stat-number" data-target="15">0</span>
+                    <span class="github-stat-label">Stars</span>
+                </div>
+                <div class="github-stat-item">
+                    <i class='bx bx-git-repo-forked'></i>
+                    <span class="github-stat-number" data-target="10">0</span>
+                    <span class="github-stat-label">Forks</span>
+                </div>
+            </div>
+            <a href="https://github.com/Anita123Tech" target="_blank" class="btn github-btn">
+                <i class='bx bxl-github'></i> <span>View GitHub Profile</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+    <div class="contact-text">
+        <h2>Contact <span>Me</span></h2>
+        <h3>Let's Work Together</h3>
+        <p>Send me a message via the contact form — I'm happy to discuss opportunities or answer any questions!</p>
+        <ul class="contact-list">
+            <li><i class="fa-solid fa-paper-plane"></i> anitaarshad457@gmail.com</li>
+            <li><i class="fa-solid fa-phone"></i> +92 3289550730</li>
+        </ul>
+        
+        <div class="social-media">
+            <a href="https://github.com/Anita123Tech" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/anitaarshad" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://wa.me/923289550730" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="mailto:anitaarshad457@gmail.com" target="_blank" title="Email"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+    </div>
+
+    <div class="contact-form">
+        <form action="https://formspree.io/f/maqllobw" method="POST" id="contactForm">
+            <input type="text" name="name" placeholder="Enter Your Name" required>
+            <input type="email" name="email" placeholder="Enter Your Email" required>
+            <input type="text" name="subject" placeholder="Enter Your Subject">
+            <textarea name="message" placeholder="Enter Your Message" rows="5" required></textarea>
+            
+            <div id="statusMessage"></div>
+            
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-content">
+        <h2>Anita Arshad</h2>
+        <p>© 2026 All Rights Reserved</p>
+        
+        <div class="footer-socials">
+            <a href="https://github.com/Anita123Tech" target="_blank" title="GitHub"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/anitaarshad" target="_blank" title="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://wa.me/923289550730" target="_blank" title="WhatsApp"><i class='bx bxl-whatsapp'></i></a>
+            <a href="mailto:anitaarshad457@gmail.com" target="_blank" title="Email"><i class='bx bx-envelope'></i></a>
+        </div>
+    </div>
+</footer>
+
+<!-- Back to Top Button -->
+<button class="back-to-top" id="backToTop">
+    <i class='bx bx-chevrons-up'></i>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
