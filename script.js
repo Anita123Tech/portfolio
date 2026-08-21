@@ -190,13 +190,13 @@ window.addEventListener('load', () => {
 })();
 
 
-// ================== 3D TILT ON CODING BANNER ==================
+// ================== 3D TILT ON CODING BADGE ==================
 (function initProfileTilt() {
-    const banner = document.querySelector('.coding-banner');
-    if (!banner) return;
+    const badge = document.querySelector('.coding-badge');
+    if (!badge) return;
 
-    banner.addEventListener('mousemove', (e) => {
-        const rect = banner.getBoundingClientRect();
+    badge.addEventListener('mousemove', (e) => {
+        const rect = badge.getBoundingClientRect();
         const x = e.clientX - rect.left;
         const y = e.clientY - rect.top;
         const centerX = rect.width / 2;
@@ -204,11 +204,11 @@ window.addEventListener('load', () => {
         const rotateX = (y - centerY) / centerY * -12;
         const rotateY = (x - centerX) / centerX * 12;
 
-        banner.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale(1.05)`;
+        badge.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale(1.05)`;
     });
 
-    banner.addEventListener('mouseleave', () => {
-        banner.style.transform = '';
+    badge.addEventListener('mouseleave', () => {
+        badge.style.transform = '';
     });
 })();
 
